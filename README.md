@@ -1,7 +1,7 @@
 # DRAM
 Implementation of "Predicting Label Distribution from Multi-label Ranking"
 
-DRAM: a framework for predicting label **D**istribution from multi-label **RA**nking via conditional Dirichlet **M**ixtures
+DRAM: A framework for predicting label **D**istribution from multi-label **RA**nking via conditional Dirichlet **M**ixtures
 
 ## Environment
 python=3.7.6, numpy=1.21.6, pandas=1.3.5, scikit-learn=0.24.2, scipy=1.7.3, pytorch=1.13.0+cpu
@@ -29,10 +29,11 @@ Dhat = dramln.predict(Xtest)
 
 ## Paper
 ```latex
-@inproceedings{Lu2022DRAM,
-	title={Predicting Label Distribution from Multi-label Ranking},
-	author={Yunan Lu and Xiuyi Jia},
-	booktitle={Advances in Neural Information Processing Systems},
-	year={2022}
+@inproceedings{Lu2022-DRAM_MLR,
+    title={Predicting Label Distribution from Multi-label Ranking},
+    author={Yunan Lu and Xiuyi Jia},
+    booktitle={Advances in Neural Information Processing Systems},
+    year={2022}
+    pages = {36931-36943},
 }
 ```
